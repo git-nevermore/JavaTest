@@ -153,7 +153,8 @@ public class ReadFromFile {
 		System.out.println("随机读取一段文件内容：");  
 	    RandomAccessFile randomFile = new RandomAccessFile(fileName, "r");
         long fileLength = randomFile.length();  
-        int beginIndex = (fileLength > 4) ? 4 : 0;  
+        // 移动文件指针起始位置,实现读取任意位置内容功能
+         int beginIndex = (fileLength > 4) ? 4 : 0;
         randomFile.seek(beginIndex);  
         
         byte[] bytes = new byte[10];  
