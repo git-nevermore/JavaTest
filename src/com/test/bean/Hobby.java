@@ -1,4 +1,4 @@
-package com.test.syntax.lambda;
+package com.test.bean;
 
 /**
  * 函数式接口声明: 有且只能有一个抽象方法

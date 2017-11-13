@@ -6,6 +6,9 @@ import java.util.function.Predicate;
 
 import org.junit.Test;
 
+import com.test.bean.Hobby;
+import com.test.bean.Runner;
+
 /**
  * Java 8 Lambda 表达式测试
  * 1.使用Lambda 表达式替换匿名类  ,必须使用函数式接口 @FunctionInterface [有且只能有一个抽象方法]

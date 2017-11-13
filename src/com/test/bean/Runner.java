@@ -1,4 +1,4 @@
-package com.test.syntax.lambda;
+package com.test.bean;
 
 public class Runner implements Hobby {
 
