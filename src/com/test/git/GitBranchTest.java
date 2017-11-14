@@ -5,6 +5,6 @@ package com.test.git;
  * @author chenwenjie
  * @since 2017-11-13
  */
-public class GitTest {
+public class GitBranchTest {
 	
 }
